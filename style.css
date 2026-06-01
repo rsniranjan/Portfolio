@@ -966,3 +966,78 @@ body.light-mode #social-btn {
     margin-top: 20px;
   }
 }
+
+/* MOBILE RESPONSIVE */
+@media screen and (max-width: 768px) {
+
+  .navbar {
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px;
+  }
+
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  #home {
+    min-height: 100vh;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #form-box {
+    width: 90%;
+    height: auto;
+    padding: 20px;
+  }
+
+  .hero-text h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero-text h2 {
+    font-size: 1.5rem;
+  }
+
+  .hero-text p {
+    font-size: 1rem;
+  }
+
+  #about-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #about-image img {
+    width: 220px;
+    height: 220px;
+  }
+
+  #education-card,
+  #project-card,
+  #skill-card,
+  #contact-card {
+    padding: 20px;
+  }
+
+  #contact-container {
+    flex-direction: column;
+  }
+
+  #social-btn {
+    font-size: 16px;
+    padding: 15px;
+  }
+
+  #education-heading h1,
+  #projects-heading h1,
+  #skills-heading h1,
+  #contact-heading h1 {
+    font-size: 2rem;
+  }
+}
